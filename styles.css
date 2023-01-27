@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Open+Sans:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+body 
+{
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contenedor
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    min-height: 1000px;
+    background-color: white;
+    margin: 25px;
+    grid-template-columns: 1fr 2fr;
+}
+.contenedor .cuadroIzq
+{
+    background-color: #134074;
+    padding: 30px
+}
+.perfil
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: solid 1px;
+}
+.profileText .foto
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.perfil h2
+{
+    color: white;
+    background-color: #0B2545;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+
+}
+.perfil h3
+{
+    color: white;
+    background-color: #0B2545;
+    font-size: 0.5;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+
+}
+.contenedor .cuadroIzq .infoContacto
+{
+    color: white;
+    font-size: 0.5;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 600;
+}
+.contenedor .cuadroIzq .idiomas
+{
+    margin-top: 150px;
+    color: white;
+    font-size: 0.5;
+}
+.contenedor .cuadroIzq .datos
+{
+    margin-top: 150px;
+    color: white;
+    font-size: 0.5;
+}
+
+.contenedor .cuadroDer
+{
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+.experiencia
+{
+    margin-top: 40px;
+    background-color: lightblue;
+}
+.experiencia h5
+{
+    margin-top: 20px;
+}
+.estudios
+{
+    margin-top: 40px;
+    background-color: lightblue;
+}
+.estudios li
+{
+    margin-top: 20px;
+}
+.datosAdicionales
+{
+    margin-top: 40px;
+    background-color: lightblue;
+}
+.redes
+{
+    margin-top: 40px;
+    justify-content: center;
+    color: black;
+}
+.boton
+{
+    background-color: lightblue;
+    color: black;
+}
